@@ -135,6 +135,7 @@ function fp_filter_filter_function(){
 			<?php while ( $query->have_posts()) : $query->the_post(); 
 					kampagnen_liste_content();
 				endwhile;
+		 		$content = ob_get_contents(); // we pass the posts to variable
 					ob_end_clean(); // clear the buffer
 				endif;
 			?>

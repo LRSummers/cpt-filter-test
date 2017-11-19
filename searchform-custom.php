@@ -87,7 +87,7 @@
 				<!-- // Advanced Custom Field date fields -->
 				<div class="data-column data-column-4">
 					<input type="hidden" name="action" value="fp_filter_filter" />
- 					<button class="search">Suchen <span class="icon-lupe"></span></button>
+ 					<button class="search"><span class="icon-lupe"></span></button>
 				</div>
 			</form>
 		</div>

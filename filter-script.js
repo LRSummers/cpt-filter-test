@@ -60,7 +60,7 @@ jQuery(function($){
 				fp_filter_loadmore_params.max_page = data.max_page;
  
 				// change the button label back
-				$('#fp_filter_filters').find('button').text('Suchen');
+				$('#fp_filter_filters').find('button').text('<span class="icon-lupe"></span>');
  
 				// insert the posts to the container
 				$('#fp_filter_posts_wrap').html(data.content);
