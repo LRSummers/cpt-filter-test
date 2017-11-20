@@ -1,5 +1,4 @@
 jQuery(function($){
- 
 	/*
 	 * Load More
 	 */
@@ -33,7 +32,7 @@ jQuery(function($){
 		});
 		return false;
 	});
- 
+
 	/*
 	 * Filter
 	 */
@@ -73,7 +72,7 @@ jQuery(function($){
 				}
 			}
 		});
- 
+ 	
 		// do not submit the form
 		return false;
  
